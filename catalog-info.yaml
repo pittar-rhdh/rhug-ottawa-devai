@@ -11,7 +11,7 @@ metadata:
     - java
     - quarkus
   links:
-    - url: https://github.com/pittar-rhdh/
+    - url: https://github.com/pittar-rhdh/rhug-ottawa-devai
       title: Open in Dev Spaces
       icon: web
     - url: https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure
