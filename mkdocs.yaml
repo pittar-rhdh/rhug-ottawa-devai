@@ -7,4 +7,4 @@ plugins:
 
 # Note for content editors, edit only the section below
 nav:
-  - rhug-ottawa-devai Documentation: index.md
+  - Planning: index.md
