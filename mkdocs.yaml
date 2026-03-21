@@ -1,0 +1,10 @@
+site_name: rhug-ottawa-devai
+site_description: RHUG prep repository.
+repo_url: https://github.com/pittar-rhdh/rhug-ottawa-devai
+
+plugins:
+  - techdocs-core
+
+# Note for content editors, edit only the section below
+nav:
+  - rhug-ottawa-devai Documentation: index.md

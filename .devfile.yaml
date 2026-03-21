@@ -1,0 +1,30 @@
+schemaVersion: 2.2.2
+attributes:
+  controller.devfile.io/storage-type: per-workspace
+metadata:
+  name: "rhug-ottawa-devai"
+  provider: Andrew Pitt
+  displayName: Basic Markdown Repo
+  description: Basic Markdown Repo
+  tags:
+    - Markdown
+    - AI
+  projectType: Markdown
+  language: Markdown
+projects:
+  - name: "rhug-ottawa-devai"
+    git:
+      remotes:
+        origin: "https://github.com/pittar-rhdh/rhug-ottawa-devai"
+      checkoutFrom:
+        revision: "main"
+        remote: origin
+components:
+  - name: tools
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel9:latest
+      cpuLimit: '2'
+      cpuRequest: '0.2'
+      memoryLimit: '4G'
+      memoryRequest: '2G'
+      mountSources: true
