@@ -1,0 +1,8 @@
+# These extensions need to be ADDED to the existing list in the software template.
+{
+  "recommendations": [
+    "RooVeterinaryInc.roo-cline",
+    "Anthropic.claude-code",
+    "Continue.continue"
+  ]
+}
