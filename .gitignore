@@ -1,18 +1,5 @@
-# Eclipse
-.project
-.classpath
-.settings/
-bin/
-
-# IntelliJ
-.idea
-*.ipr
-*.iml
-*.iws
-
-# NetBeans
-nb-configuration.xml
-
+# This repo
+ignored
 
 # OSX
 .DS_Store
