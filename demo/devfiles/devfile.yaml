@@ -1,0 +1,7 @@
+  - id: configure-continue
+    exec:
+      component: development-tooling
+      commandLine: "mkdir -p /home/user/.continue && cp /data/config/continue/*.* /home/user/.continue/"
+events:
+  postStart:
+    - configure-continue

@@ -87,3 +87,19 @@ Update `scaffolder-templates/quarkus-stssc-template/skeleton/.vscode/extensions.
 ```
 
 This will add Roo Code, Continue, and Claude.
+
+Next, create a `.claude` directory in the root and create a file called `settings.local.json` with the following contents:
+
+```
+{
+  "permissions": {
+    "allow": [],
+    "deny": [],
+    "ask": []
+  },
+  "apiKeyHelper": "bash -c 'echo $ANTHROPIC_API_KEY'"
+}
+```
+
+Commit/push those updates.  You should be set for Claude now.
+
